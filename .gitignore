@@ -1,0 +1,7 @@
+# Large data files
+data/*.csv
+data/raw_*
+data/*.db
+
+# Environment variables
+.env
