@@ -4,4 +4,4 @@ data/raw_*
 data/*.db
 
 # Environment variables
-.env
+*.env
