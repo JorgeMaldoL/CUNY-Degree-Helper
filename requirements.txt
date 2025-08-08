@@ -1,0 +1,9 @@
+streamlit==1.47.1
+pandas==2.2.3
+python-dotenv==1.1.0
+anthropic==0.60.0
+langchain==0.3.25
+langchain-anthropic==0.3.18
+chromadb==0.5.23
+sentence-transformers==5.0.0
+pysqlite3-binary

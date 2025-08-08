@@ -1,0 +1,78 @@
+{
+  "TuitionAndFees": [
+    {
+      "Campus": "Brooklyn College",
+      "Annual Tuition & Fees (In-State)": "$7,560",
+      "Full-Time Cost/Semester": "$3,465 tuition + ~$315 fees"
+    },
+    {
+      "Campus": "City College (CCNY)",
+      "Annual Tuition & Fees (In-State)": "$7,560",
+      "Full-Time Cost/Semester": "$3,465 tuition + $125 tech fee + ~$60-180 activity fee"
+    },
+    {
+      "Campus": "Baruch College",
+      "Annual Tuition & Fees (In-State)": "$7,560",
+      "Full-Time Cost/Semester": "$3,465 tuition + similar activity/tech fees"
+    },
+    {
+      "Campus": "Queens College",
+      "Annual Tuition & Fees (In-State)": "$7,560",
+      "Full-Time Cost/Semester": "$3,465 tuition + ~$304 consolidated fee"
+    },
+    {
+      "Campus": "John Jay College",
+      "Annual Tuition & Fees (In-State)": "$7,560",
+      "Full-Time Cost/Semester": "$3,465 tuition + typical tech/activity fees"
+    },
+    {
+      "Campus": "City Tech (NYCCT)",
+      "Annual Tuition & Fees (In-State)": "$7,560",
+      "Full-Time Cost/Semester": "$3,465 tuition + $125 tech + ~$60\u2011100 activity fees"
+    }
+  ],
+  "MajorSpecificCosts": [
+    {
+      "Major Type": "Studio & Fine Arts",
+      "Example Majors": "Studio Art, Graphic Design",
+      "Estimated Extra Costs / Year": "$800\u2013$1,200+",
+      "Includes": "Supplies fees for materials, print/film, portfolios, lab access"
+    },
+    {
+      "Major Type": "Engineering / Tech Labs",
+      "Example Majors": "Mechanical Engineering, City Tech",
+      "Estimated Extra Costs / Year": "$600\u2013$1,000",
+      "Includes": "Materials labs, tech tools, safety gear, field trip transport"
+    },
+    {
+      "Major Type": "Pre\u2011Med / Life Sciences",
+      "Example Majors": "Biology, Neuroscience",
+      "Estimated Extra Costs / Year": "$400\u2013$700",
+      "Includes": "Lab fees, dissection kits, specialized textbooks, proctored exams"
+    },
+    {
+      "Major Type": "Pre\u2011Law / Public Policy",
+      "Example Majors": "Criminal Justice, Political Science",
+      "Estimated Extra Costs / Year": "$300\u2013$500",
+      "Includes": "Casebooks, print materials, occasional travel to clinics or court"
+    },
+    {
+      "Major Type": "Education / Teaching",
+      "Example Majors": "Childhood Education",
+      "Estimated Extra Costs / Year": "$200\u2013$400",
+      "Includes": "Workshops, fingerprinting, substitutes, student-teach trial"
+    },
+    {
+      "Major Type": "Computer Science / Data Science",
+      "Example Majors": "CS, Information Science",
+      "Estimated Extra Costs / Year": "$100\u2013$300",
+      "Includes": "Software licenses, occasional textbooks, campus printing"
+    },
+    {
+      "Major Type": "Business / Econ",
+      "Example Majors": "Finance, Accounting, Marketing",
+      "Estimated Extra Costs / Year": "$200\u2013$500",
+      "Includes": "Case studies, specialized textbooks, certification prep"
+    }
+  ]
+}

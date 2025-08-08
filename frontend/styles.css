@@ -1,0 +1,321 @@
+/* Dream 4 Degree - Custom Styles */
+/* This CSS file contains all custom styling for the Streamlit frontend */
+/* Edit this file to customize the appearance of the application */
+
+/* CUNY theme variables */
+:root {
+    --cuny-blue: #0033A0;
+    --cuny-blue-2: #0050FF;
+    --bg-soft: #F5F7FB;
+    --text: #1F2937;
+}
+
+/* Main layout styles */
+.main-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0 12px;
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 1rem;
+    background: transparent;
+    color: var(--text);
+}
+
+/* Brand bar (logo + title) */
+.app-brand { display: flex; align-items: center; gap: 12px; }
+.app-logo svg { width: 40px; height: 40px; display: block; object-fit: contain; }
+.app-logo img { width: 40px; height: 40px; display: block; object-fit: contain; }
+.app-title h1 { margin: 0; color: var(--cuny-blue); font-size: 1.6rem; }
+.app-title p { margin: 0; color: #4B5563; }
+
+/* Generic card wrapper using an adjacent-sibling marker */
+.app-card-start + div {
+    background: #ffffff;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    margin: 12px 0 16px;
+}
+
+/* Navigation styles */
+.page-nav {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Tab styling - fix visibility issue */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 4px;
+    background-color: var(--bg-soft);
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: var(--text);
+    font-weight: 600;
+    border: 1px solid #E5E7EB;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: var(--cuny-blue);
+    color: #ffffff;
+    border: 1px solid var(--cuny-blue-2);
+}
+
+/* Card styles */
+.quiz-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.recommendation-card {
+    background: linear-gradient(135deg, var(--cuny-blue) 0%, var(--cuny-blue-2) 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Small pill for source items (used in RAG section) */
+.source-pill {
+    display: inline-block;
+    background: #EEF2FF;
+    color: var(--cuny-blue);
+    padding: 6px 10px;
+    border-radius: 14px;
+    margin: 4px 6px 0 0;
+    font-size: 0.9rem;
+}
+
+/* Score and metric styles */
+.fit-score {
+    background: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Button styles */
+.stButton > button {
+    background: linear-gradient(90deg, var(--cuny-blue) 0%, var(--cuny-blue-2) 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Form styling */
+.stForm {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    border: 2px solid #e9ecef;
+}
+
+/* Form element styling for better visibility */
+.stSelectbox > div > div {
+    background-color: #ffffff !important;
+    color: var(--text) !important;
+    border: 1px solid #E5E7EB !important;
+    border-radius: 8px !important;
+}
+
+.stMultiSelect > div > div {
+    background-color: #ffffff !important;
+    color: var(--text) !important;
+    border: 1px solid #E5E7EB !important;
+    border-radius: 8px !important;
+}
+
+.stSlider > div > div > div {
+    background-color: #ffffff !important;
+}
+
+/* Form labels */
+.stForm label {
+    color: #212529 !important;
+    font-weight: 600 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Form submit button */
+.stForm .stButton > button {
+    background: linear-gradient(90deg, #28a745 0%, #20c997 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.7rem 2rem !important;
+    font-weight: 600 !important;
+    width: 100% !important;
+    margin-top: 1rem !important;
+}
+
+.stForm .stButton > button:hover {
+    background: linear-gradient(90deg, #218838 0%, #1abc9c 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
+/* Dropdown and multiselect options */
+.stSelectbox [data-baseweb="menu"] {
+    background-color: #ffffff !important;
+    border: 1px solid #E5E7EB !important;
+    border-radius: 8px !important;
+}
+
+.stSelectbox [data-baseweb="option"] {
+    background-color: #ffffff !important;
+    color: var(--text) !important;
+}
+
+.stSelectbox [data-baseweb="option"]:hover {
+    background-color: #F3F4F6 !important;
+    color: var(--text) !important;
+}
+
+.stMultiSelect [data-baseweb="menu"] {
+    background-color: #ffffff !important;
+    border: 1px solid #E5E7EB !important;
+    border-radius: 8px !important;
+}
+
+.stMultiSelect [data-baseweb="option"] {
+    background-color: #ffffff !important;
+    color: var(--text) !important;
+}
+
+.stMultiSelect [data-baseweb="option"]:hover {
+    background-color: #F3F4F6 !important;
+    color: var(--text) !important;
+}
+
+/* Selected values in multiselect */
+.stMultiSelect [data-baseweb="tag"] {
+    background-color: var(--cuny-blue) !important;
+    color: #ffffff !important;
+    border-radius: 15px !important;
+}
+
+/* Placeholder text styling */
+.stSelectbox input::placeholder,
+.stMultiSelect input::placeholder,
+.stTextInput input::placeholder,
+.stTextArea textarea::placeholder {
+    color: #9CA3AF !important;
+}
+
+/* Selected text in dropdowns */
+.stSelectbox [data-baseweb="select"] > div {
+    color: var(--text) !important;
+}
+
+.stMultiSelect [data-baseweb="select"] > div {
+    color: var(--text) !important;
+}
+
+/* Dropdown arrow */
+.stSelectbox svg,
+.stMultiSelect svg {
+    fill: #6B7280 !important;
+}
+
+/* Text input styling */
+.stTextInput > div > div > input {
+    background-color: #ffffff !important;
+    color: var(--text) !important;
+    border: 1px solid #E5E7EB !important;
+    border-radius: 8px !important;
+}
+
+.stTextArea > div > div > textarea {
+    background-color: #ffffff !important;
+    color: var(--text) !important;
+    border: 1px solid #E5E7EB !important;
+    border-radius: 8px !important;
+}
+
+/* Radio button styling */
+.stRadio > div {
+    background-color: #ffffff !important;
+    padding: 1rem !important;
+    border-radius: 8px !important;
+    border: 1px solid #E5E7EB !important;
+}
+
+.stRadio label {
+    color: var(--text) !important;
+}
+
+/* Slider styling */
+.stSlider > div > div > div > div {
+    background-color: var(--cuny-blue) !important;
+}
+
+/* Number input styling */
+.stNumberInput > div > div > input {
+    background-color: #ffffff !important;
+    color: var(--text) !important;
+    border: 1px solid #E5E7EB !important;
+    border-radius: 8px !important;
+}
+
+/* Quiz section headers */
+.stForm h3, .stForm h4 {
+    color: #343a40 !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Quiz question text */
+.stForm .element-container p {
+    color: #495057 !important;
+    font-weight: 500 !important;
+}
+
+/* Help text */
+.stForm .help {
+    color: #6c757d !important;
+    font-style: italic !important;
+}
+
+/* Metric styling */
+.metric-container {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    color: #6c757d;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Add more custom styles here as needed */

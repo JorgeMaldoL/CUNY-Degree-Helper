@@ -1,0 +1,45 @@
+# Large data files
+data/*.csv
+data/raw_*
+data/*.db
+
+# Environment variables
+*.env
+.env*
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# API Keys and secrets
+**/api_keys.txt
+**/secrets.txt
+**/*secret*
+**/*key*.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# ChromaDB database (keep project DB committed)
+!/backend/chroma_db/

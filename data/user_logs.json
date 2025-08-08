@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2025-08-04T02:26:40.189903",
+    "user_profile": {
+      "interests": [
+        "Mathematics",
+        "Science (Physics)"
+      ],
+      "preferred_location": null,
+      "budget_max": null,
+      "career_goals": null
+    },
+    "recommendations_count": 3,
+    "top_recommendation": "Adolescent Education: Mathematics, Grades 7-12"
+  },
+  {
+    "timestamp": "2025-08-04T02:27:08.859926",
+    "user_profile": {
+      "interests": [
+        "Mathematics",
+        "Science (Physics)"
+      ],
+      "preferred_location": null,
+      "budget_max": null,
+      "career_goals": null
+    },
+    "recommendations_count": 3,
+    "top_recommendation": "Adolescent Education: Mathematics, Grades 7-12"
+  }
+]

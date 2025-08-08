@@ -1,0 +1,139 @@
+{
+  "Top15Majors": [
+    {
+      "Major": "Psychology",
+      "Common Schools": [
+        "Hunter",
+        "Brooklyn",
+        "Queens",
+        "City College",
+        "Baruch"
+      ]
+    },
+    {
+      "Major": "Business Administration",
+      "Common Schools": [
+        "Baruch",
+        "Brooklyn",
+        "Lehman",
+        "Queens",
+        "City Tech"
+      ]
+    },
+    {
+      "Major": "Computer Science",
+      "Common Schools": [
+        "Hunter",
+        "City College",
+        "Brooklyn",
+        "Queens",
+        "City Tech"
+      ]
+    },
+    {
+      "Major": "Nursing",
+      "Common Schools": [
+        "Hunter",
+        "Lehman",
+        "City Tech",
+        "BMCC",
+        "Queensborough"
+      ]
+    },
+    {
+      "Major": "Biology",
+      "Common Schools": [
+        "City College",
+        "Brooklyn",
+        "Queens",
+        "Hunter"
+      ]
+    },
+    {
+      "Major": "Criminal Justice",
+      "Common Schools": [
+        "John Jay",
+        "BMCC",
+        "Bronx CC"
+      ]
+    },
+    {
+      "Major": "Education",
+      "Common Schools": [
+        "Brooklyn",
+        "Queens",
+        "Hunter",
+        "City College"
+      ]
+    },
+    {
+      "Major": "Accounting",
+      "Common Schools": [
+        "Baruch",
+        "Brooklyn",
+        "Queens"
+      ]
+    },
+    {
+      "Major": "Political Science",
+      "Common Schools": [
+        "City College",
+        "Hunter",
+        "Brooklyn",
+        "Queens"
+      ]
+    },
+    {
+      "Major": "Economics",
+      "Common Schools": [
+        "Baruch",
+        "City College",
+        "Hunter",
+        "Brooklyn"
+      ]
+    },
+    {
+      "Major": "Sociology",
+      "Common Schools": [
+        "Hunter",
+        "Brooklyn",
+        "City College"
+      ]
+    },
+    {
+      "Major": "Health Sciences",
+      "Common Schools": [
+        "Lehman",
+        "City Tech",
+        "Queensborough",
+        "BMCC"
+      ]
+    },
+    {
+      "Major": "Information Technology",
+      "Common Schools": [
+        "City Tech",
+        "BMCC",
+        "Baruch"
+      ]
+    },
+    {
+      "Major": "Communications",
+      "Common Schools": [
+        "Brooklyn",
+        "Baruch",
+        "Hunter",
+        "City College"
+      ]
+    },
+    {
+      "Major": "Engineering (Mechanical, Electrical, Civil)",
+      "Common Schools": [
+        "City College",
+        "City Tech",
+        "Queens",
+        "Brooklyn"
+      ]
+    }
+  ]
+}
