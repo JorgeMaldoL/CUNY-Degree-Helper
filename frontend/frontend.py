@@ -40,8 +40,8 @@ def load_css():
         .main-header { display:flex; align-items:center; gap:12px; padding:8px 0 12px; border-bottom:1px solid #E5E7EB; }
         .main-header h1 { margin:0; color: var(--cuny-blue); }
         .main-header p { margin:0; color:#4B5563; }
-        .recommendation-card { background: linear-gradient(135deg, var(--cuny-blue) 0%, var(--cuny-blue-2) 100%); color: white; padding: 1.25rem; border-radius: 10px; margin-bottom: 1rem; box-shadow: 0 4px 8px rgba(0,0,0,0.08); }
-        .fit-score { background: #10B981; color: white; padding: 0.4rem 0.8rem; border-radius: 16px; font-weight: 700; display: inline-block; }
+    .recommendation-card { background: #ffffff; color: var(--text); padding: 1.25rem; border-radius: 10px; margin-bottom: 1rem; border: 1px solid #E5E7EB; box-shadow: 0 4px 8px rgba(0,0,0,0.06); }
+    .fit-score { background: #10B981; color: white; padding: 0.4rem 0.8rem; border-radius: 16px; font-weight: 700; display: inline-block; }
         .source-pill { display:inline-block; background:#EEF2FF; color: var(--cuny-blue); padding:6px 10px; border-radius:14px; margin: 4px 6px 0 0; font-size: 0.9rem; }
         </style>
         """, unsafe_allow_html=True)

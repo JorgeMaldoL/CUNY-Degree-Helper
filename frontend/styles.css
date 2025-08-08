@@ -81,12 +81,14 @@
 }
 
 .recommendation-card {
-    background: linear-gradient(135deg, var(--cuny-blue) 0%, var(--cuny-blue-2) 100%);
-    color: white;
+    /* Switch to a light card for better text readability */
+    background: #ffffff;
+    color: var(--text);
     padding: 1.5rem;
     border-radius: 10px;
     margin-bottom: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.06);
 }
 
 /* Small pill for source items (used in RAG section) */
