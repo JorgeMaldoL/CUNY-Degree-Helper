@@ -1,7 +1,8 @@
 # Dream 4 Degree
 
 Find the right CUNY program with a fast, local RAG search and a simple Streamlit UI.
-#Deployed Demo 
+
+## Deployed Demo 
 https://cuny-degree-apper-uymg7nygtxkkpaz9xudu2u.streamlit.app/
 
 ## Quick start
